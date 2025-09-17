@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses - Vrindavan Gurukul Shiksha Seva Trust</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="image/Logo - Vrindavan.png" alt="Vrindavan Gurukul Logo">
+                <span>Vrindavan Gurukul</span>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="gallery.html">Gallery</a><li>
+                    <li><a href="#" class="btn btn-small enroll-btn">Enroll Now</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Our Courses</h1>
+            <p>Comprehensive programs designed for academic excellence</p>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section">
+        <div class="container">
+            <div class="course-categories">
+                <h2 class="section-title">Course Categories</h2>
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="all">All Courses</button>
+                    <button class="category-tab" data-category="school">School Curriculum</button>
+                    <button class="category-tab" data-category="competitive">Competitive Exams</button>
+                    <button class="category-tab" data-category="foundation">Foundation</button>
+                </div>
+            </div>
+
+            <!-- All Courses -->
+            <div class="courses-container">
+                <!-- JEE/NEET Course -->
+                <div class="course-details" id="jee-neet" data-category="competitive">
+                    <div class="course-main">
+                        <div class="course-image">
+                            <img src="image/primary edu.jpg" alt="Primary Education">
+                        </div>
+                        <div class="course-info">
+                            <h3>Primary education</h3>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="far fa-clock"></i> 12 Months Program</span>
+                                <span class="course-seats"><i class="fas fa-user-graduate"></i> 25 Students/Batch</span>
+                                <span class="course-level"><i class="fas fa-signal"></i> Advanced Level</span>
+                            </div>
+                            <div class="course-price">₹ 800/month</div>
+                            <p class="course-description">Comprehensive coaching for CHS exams with focus on concepts and problem-solving strategies. Our program includes complete syllabus coverage, doubt-solving sessions, and regular mock tests.</p>
+                            <a href="#" class="btn enroll-btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-curriculum">
+                        <h4>Course Curriculum</h4>
+                        <div class="curriculum-grid">
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-book-open"></i>    CHS preparation </h5>
+                                <ul>
+                                    <li>Complete Physics, Chemistry & Mathematics syllabus</li>
+                                    <li>1000+ practice problems with solutions for CHS</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-book-medical"></i>Military School Preparation</h5>
+                                <ul>
+                                    <li>Complete Physics, Chemistry & Biology syllabus</li>
+                                    <li>Conceptual learning with diagrams & animations</li>
+                                    <li>20 full-length mock tests</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-chalkboard-teacher"></i> Teaching Methodology</h5>
+                                <ul>
+                                    <li>6 days/week classes (3 hrs/day)</li>
+                                    <li>Weekly doubt-solving sessions</li>
+                                    <li>Monthly parent-teacher meetings</li>
+                                    <li>Personalized performance analysis</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-award"></i> Additional Benefits</h5>
+                                <ul>
+                                    <li>Study material & practice workbooks</li>
+                                    <li>Access to online question bank</li>
+                                    <li>Exam strategy workshops</li>
+                                    <li>Career counseling sessions</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CBSE Board Course -->
+                <div class="course-details" id="cbse" data-category="school">
+                    <div class="course-main">
+                        <div class="course-image">
+                            <img src="image/CBSE .jpg" alt="CBSE Board Classes" >
+                        </div>
+                        <div class="course-info">
+                            <h3>CBSE Board Classes (9th-12th)</h3>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="far fa-clock"></i> 10 Months Program</span>
+                                <span class="course-seats"><i class="fas fa-user-graduate"></i> 30 Students/Batch</span>
+                                <span class="course-level"><i class="fas fa-signal"></i> Intermediate Level</span>
+                            </div>
+                            <div class="course-price">₹ 1500/month</div>
+                            <p class="course-description">Special classes for CBSE students focusing on NCERT syllabus with additional practice material. Our program ensures complete syllabus coverage, regular tests, and individual attention to help students score 90+ in board exams.</p>
+                            <a href="#" class="btn enroll-btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-curriculum">
+                        <h4>Course Features</h4>
+                        <div class="curriculum-grid">
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-book"></i> Class 9th & 10th</h5>
+                                <ul>
+                                    <li>Mathematics, Science, English & Social Science</li>
+                                    <li>NCERT-based teaching with extra practice</li>
+                                    <li>Regular chapter-wise tests</li>
+                                    <li>Sample paper solving sessions</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-graduation-cap"></i> Class 11th & 12th</h5>
+                                <ul>
+                                    <li>Science (PCM/PCB), Commerce & Humanities</li>
+                                    <li>Detailed theory with numerical practice</li>
+                                    <li>Board exam pattern questions</li>
+                                    <li>Practical exam preparation</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-chalkboard"></i> Teaching Approach</h5>
+                                <ul>
+                                    <li>5 days/week classes (2 hrs/day)</li>
+                                    <li>Weekly revision sessions</li>
+                                    <li>Doubt classes before exams</li>
+                                    <li>Answer writing practice</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-star"></i> Special Features</h5>
+                                <ul>
+                                    <li>Comprehensive study material</li>
+                                    <li>Previous year question banks</li>
+                                    <li>Parent-teacher meetings</li>
+                                    <li>Performance tracking reports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Foundation Course -->
+                <div class="course-details" id="foundation" data-category="foundation">
+                    <div class="course-main">
+                        <div class="course-image">
+                            <img src="image/fundation batch.jpg" alt="Foundation Course">
+                        </div>
+                        <div class="course-info">
+                            <h3>Foundation Course (6th-8th)</h3>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="far fa-clock"></i> 12 Months Program</span>
+                                <span class="course-seats"><i class="fas fa-user-graduate"></i> 20 Students/Batch</span>
+                                <span class="course-level"><i class="fas fa-signal"></i> Beginner Level</span>
+                            </div>
+                            <div class="course-price">₹ 1000/month</div>
+                            <p class="course-description">Build strong foundation in Science and Mathematics with conceptual learning and practical applications. Our program develops analytical thinking and problem-solving skills from an early age, preparing students for future competitive exams.</p>
+                            <a href="#" class="btn enroll-btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-curriculum">
+                        <h4>Course Structure</h4>
+                        <div class="curriculum-grid">
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-atom"></i> Science Foundation</h5>
+                                <ul>
+                                    <li>Physics: Basic concepts & real-life applications</li>
+                                    <li>Chemistry: Introduction to elements & compounds</li>
+                                    <li>Biology: Understanding living organisms</li>
+                                    <li>Practical experiments & demonstrations</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-square-root-alt"></i> Mathematics</h5>
+                                <ul>
+                                    <li>Building strong numerical skills</li>
+                                    <li>Logical reasoning development</li>
+                                    <li>Problem-solving techniques</li>
+                                    <li>Mental math exercises</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-brain"></i> Learning Methodology</h5>
+                                <ul>
+                                    <li>4 days/week classes (1.5 hrs/day)</li>
+                                    <li>Interactive learning with models & visuals</li>
+                                    <li>Weekly quizzes & fun activities</li>
+                                    <li>Project-based learning</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-medal"></i> Additional Benefits</h5>
+                                <ul>
+                                    <li>Olympiad preparation guidance</li>
+                                    <li>Science fair participation</li>
+                                    <li>Creative thinking workshops</li>
+                                    <li>Regular progress reports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Olympiad Course -->
+                <div class="course-details" id="olympiad" data-category="competitive">
+                    <div class="course-main">
+                        <div class="course-image">
+                            <img src="image/olympard.jpg" alt="Olympiad Preparation">
+                        </div>
+                        <div class="course-info">
+                            <h3>Olympiad Preparation (6th-10th)</h3>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="far fa-clock"></i> 8 Months Program</span>
+                                <span class="course-seats"><i class="fas fa-user-graduate"></i> 20 Students/Batch</span>
+                                <span class="course-level"><i class="fas fa-signal"></i> Advanced Level</span>
+                            </div>
+                            <div class="course-price">₹ 1100/month</div>
+                            <p class="course-description">Specialized training for various Olympiad exams (NTSE, NSO, IMO, IEO) with focus on higher-order thinking skills. Our program includes concept building, logical reasoning, and problem-solving techniques required for Olympiad success.</p>
+                            <a href="#" class="btn enroll-btn">Enroll Now</a>
+                        </div>
+                    </div>
+                    <div class="course-curriculum">
+                        <h4>Program Details</h4>
+                        <div class="curriculum-grid">
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-medal"></i> Olympiad Coverage</h5>
+                                <ul>
+                                    <li>National Science Olympiad (NSO)</li>
+                                    <li>International Mathematics Olympiad (IMO)</li>
+                                    <li>International English Olympiad (IEO)</li>
+                                    <li>National Talent Search Exam (NTSE)</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-lightbulb"></i> Focus Areas</h5>
+                                <ul>
+                                    <li>Advanced conceptual understanding</li>
+                                    <li>Logical & analytical reasoning</li>
+                                    <li>Critical thinking development</li>
+                                    <li>Problem-solving strategies</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-chalkboard-teacher"></i> Teaching Approach</h5>
+                                <ul>
+                                    <li>3 days/week classes (2 hrs/day)</li>
+                                    <li>Chapter-wise concept building</li>
+                                    <li>Previous year paper analysis</li>
+                                    <li>Mock Olympiad tests</li>
+                                </ul>
+                            </div>
+                            <div class="curriculum-item">
+                                <h5><i class="fas fa-book"></i> Study Material</h5>
+                                <ul>
+                                    <li>Comprehensive theory books</li>
+                                    <li>Practice workbooks</li>
+                                    <li>Previous year question banks</li>
+                                    <li>Online test series access</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Comparison -->
+    <section class="comparison-section bg-light">
+        <div class="container">
+            <h2 class="section-title">Course Comparison</h2>
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Primary Education</th>
+                            <th>CBSE Board</th>
+                            <th>Foundation</th>
+                            <th>Olympiad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Class Duration</td>
+                            <td>3 hours/day</td>
+                            <td>2 hours/day</td>
+                            <td>1.5 hours/day</td>
+                            <td>2 hours/day</td>
+                        </tr>
+                        <tr>
+                            <td>Days/Week</td>
+                            <td>6 days</td>
+                            <td>5 days</td>
+                            <td>4 days</td>
+                            <td>3 days</td>
+                        </tr>
+                        <tr>
+                            <td>Batch Size</td>
+                            <td>25 students</td>
+                            <td>30 students</td>
+                            <td>20 students</td>
+                            <td>20 students</td>
+                        </tr>
+                        <tr>
+                            <td>Tests/Month</td>
+                            <td>4 full tests</td>
+                            <td>2 chapter tests</td>
+                            <td>1 revision test</td>
+                            <td>2 mock Olympiads</td>
+                        </tr>
+                        <tr>
+                            <td>Study Material</td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                            <td><i class="fas fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Doubt Classes</td>
+                            <td>Weekly</td>
+                            <td>Bi-weekly</td>
+                            <td>As needed</td>
+                            <td>Weekly</td>
+                        </tr>
+                        <tr>
+                            <td>Parent Meetings</td>
+                            <td>Monthly</td>
+                            <td>Quarterly</td>
+                            <td>Quarterly</td>
+                            <td>Monthly</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>  
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Students Say About Our Courses</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"The  preparation at Vrindavan Gurukul was perfectly structured with the right balance of theory and practice. The regular tests and detailed feedback helped me identify my weak areas and improve systematically."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/student-1.jpg" alt="Rahul Sharma">
+                        <div class="author-info">
+                            <h4>Rahul Sharma</h4>
+                            <p>12th exam</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"My daughter joined the Foundation course in 6th grade and the improvement in her logical thinking and problem-solving skills is remarkable. The teachers make learning fun and engaging for young students."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/parent-1.jpg" alt="Mrs. Gupta">
+                        <div class="author-info">
+                            <h4>Mrs. Gupta</h4>
+                            <p>Parent of Class 8 Student</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Still Deciding Which Course is Right for You?</h2>
+            <p>Our academic counselors can help you choose the perfect program based on your goals and current level</p>
+            <div class="cta-btns">
+                <a href="tel:+919876543210" class="btn btn-large"><i class="fas fa-phone"></i> Call for Counseling</a>
+                <a href="contact.html" class="btn btn-outline btn-large"><i class="fas fa-calendar-alt"></i> Schedule Visit</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Same as index.html -->
+
+    <!-- Enrollment Modal -->
+    <!-- Same as index.html -->
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/courses.js"></script>
+</body>
+</html>
