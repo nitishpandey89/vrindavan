@@ -32,7 +32,7 @@ Microsoft Edge
 Safari
 Installation
 Clone the repository:
-git clone https://github.com/your-username/your-repository-name.git
+git clone (https://github.com/nitishpandey89/vrindavan)
 Navigate to the project folder:
 cd your-repository-name
 Open index.html in your browser.
